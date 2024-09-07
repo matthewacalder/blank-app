@@ -4,8 +4,10 @@ import streamlit as st
 def main() -> None:
     st.title("Trackmania Campaign Author Time Difficulty")
     st.markdown(
-        "The below table shows the author times for all Trackmania 2020 Campaign tracks (as of 7th September 2024)"
+        "The below table shows the author times for all Trackmania 2020 Campaign tracks (as of 7th September 2024) "
         "alongisde world record times and the 10,000th position on leaderboard times."
+    )
+    st.markdown(
         "It is suggested that filtering from high to low on `10k Time Difference` or "
         "`10k Time % Difference` column gives a good indication of easy -> hard author times."
     )
