@@ -1,8 +1,6 @@
-# 🎈 Blank app template
+# Trackmania 2020 Campaign Track Author Time Visualisation
 
-A simple Streamlit app template for you to modify!
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+A simple Streamlit app to shown easiest Trackmania 2020 Campaign tracks to obtain an author medals for.
 
 ### How to run it on your own machine
 
