@@ -5,7 +5,7 @@ def main() -> None:
     st.title("Trackmania Campaign Author Time Difficulty")
     st.markdown("All data taken from https://webservices.openplanet.dev/ on 7th September 2024.")
     st.markdown(
-        "It is suggested that filtering from high to low on `10k Time % Difference` or "
+        "It is suggested that filtering from high to low on `10k Time Difference` or "
         "`10k Time % Difference` column gives a good indication of easy -> hard author times."
     )
     st.markdown(
