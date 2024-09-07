@@ -1,2 +1,3 @@
+pandas
+pydantic
 streamlit
-pandas==2.2.2
