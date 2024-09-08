@@ -104,6 +104,7 @@ def filter_dataframe(df: pd.DataFrame, no_filter_cols: list[str]) -> pd.DataFram
     # Only show modification options if selected
     modify = st.checkbox("Add filters")
     if not modify:
+        st.text(f"Tracks showing: {df.shape[0]}")
         return df
 
     # Configure what column contents can be controlled
@@ -127,5 +128,6 @@ def filter_dataframe(df: pd.DataFrame, no_filter_cols: list[str]) -> pd.DataFram
     with modification_container:
         df = _filter_column_contents(df, filter_cols)
         df = _filter_columns(df)
+        st.text(f"Tracks showing: {df.shape[0]}")
 
     return df
